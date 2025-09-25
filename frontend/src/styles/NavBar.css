@@ -1,0 +1,40 @@
+.navigation {
+  position: absolute;
+  width: 100%;
+  height: 60px;
+  left: 0px;
+  top: 0px;
+  font-family: Karla, sans-serif;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+  align-items: center;
+  padding: 0 210px;
+}
+
+.nav-logo{
+    width: 46px;
+    height: 49px;
+}
+
+.nav-list ul {
+  display: flex;
+  gap: 25px;
+  list-style: none;
+}
+
+.nav-list li {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 100%;
+  cursor: pointer;
+}
+
+.nav-list li:hover{
+    color: green;
+}
